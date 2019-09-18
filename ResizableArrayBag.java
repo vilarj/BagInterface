@@ -117,6 +117,7 @@ public class ResizableArrayBag<T> implements BagInterface<T>{
 	public ResizableArrayBag<T> union(ResizableArrayBag<T> bag1) {
 		ResizableArrayBag<T> bag2 = new ResizableArrayBag<>();
 		int length = numberOfEntries + bag1.numberOfEntries;
+		
 		for(int i = 0; i < length; i++) {
 			if(i < numberOfEntries) {bag2.add(bagarray[i]);}
 			else{bag2.add(bag2.bagarray[i - numberOfEntries]);}
