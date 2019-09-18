@@ -1,5 +1,10 @@
 package lab1;
-
+/**
+ * 
+ * @authors jimenezc1
+ *
+ * @param <T>
+ */
 public interface BagInterface<T> {
 	/** 
 	 Gets the current number of objects in the bag
