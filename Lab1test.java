@@ -3,7 +3,11 @@ package lab1;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-
+/**
+ * 
+ * @author jimenezc1
+ *
+ */
 public class Lab1test {
 
 	public static void main(String[] args) {
