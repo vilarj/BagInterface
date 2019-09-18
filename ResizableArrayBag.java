@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 /**
  * 
- * @author jimenezc1 huangj12
+ * @author jimenezc1
  *
  * @param <T>
  */
